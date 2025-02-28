@@ -1,0 +1,96 @@
+body{
+    background-color: #1d1f23;
+}
+        .cardContainer {
+            width: 80%;
+            max-width: 1000px;  /* Maximum width to avoid card becoming too wide */
+            margin: auto;
+            background: rgba(18, 18, 18, 0.8); /* Darker semi-transparent background */
+            color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(10px); 
+            
+        }
+        .cardheader {
+            background-color: #830d0d;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+        .cardprofile {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .cardprofile img {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            border-radius: 50%;
+
+             /* Circle shape */
+            object-fit: cover; /* Ensure the image fits well inside the container without stretching */
+            filter: none; /* Remove any potential blur effect */
+            border: 1px solid #fff; 
+
+
+
+
+        }
+        .cardprofile-info {
+            margin-left: 20px;
+        }
+        .cardratings {
+            color: gray;
+            margin-top: 5px;
+        }
+        .cardcontact {
+            background: #252525;
+            padding: 10px;
+            margin-top: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .cardcontact a {
+            color: red;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .cardtabs {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding: 10px 0;
+            border-top: 1px solid #353535;
+        }
+        .cardtabs a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+
+
+        .cardtabs a {
+          text-decoration: none; /* Remove default underline */
+          padding: 10px;
+          font-size: 16px;
+          color: white;
+          transition: all 0.3s ease;
+        }
+        
+        .cardtabs a.active {
+          font-weight: bold;
+          border-bottom: 2px solid #ffa78b;; /* Active tab underline color */
+          color: #ffa78b;; /* Change text color when active */
+        }
+        
+        /* Optional: Add hover effect for better interaction */
+        .cardtabs a:hover {
+          color: #830d0d;;
+        }
+
+
+      
